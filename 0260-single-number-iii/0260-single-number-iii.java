@@ -2,18 +2,18 @@ class Solution
 {
     public int[] singleNumber(int[] nums) 
     {
-        List<Integer> numbers = new ArrayList<>();
-        Map<Integer, Integer> map = new HashMap<>();
         int length = nums.length;
+        Map<Integer, Integer> map = new HashMap<>();
         for(int i = 0; i < length; i++)
         {
             int element = nums[i];
             map.put(element, map.getOrDefault(element, 0) + 1);
         }
+        List<Integer> numbers = new ArrayList<>();
         int frequency = 1;
         for(Map.Entry<Integer, Integer> entry : map.entrySet())
         {
-            if(entry.getValue() == 1)
+            if(entry.getValue() == frequency)
             {
                 numbers.add(entry.getKey());
             }
