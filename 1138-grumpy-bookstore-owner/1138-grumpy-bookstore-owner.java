@@ -21,13 +21,6 @@ class Solution
         int end = minutes;
         while(end < length)
         {
-            // int window = start;
-            // while(window <= end)
-            // {
-            //     satisfiedCustomers += customers[start] * grumpy[start];
-            //     window += 1;
-            // }
-            // maxSatisfiedCustomers = Math.max(maxSatisfiedCustomers, satisfiedCustomers);
             satisfiedCustomers += customers[end] * grumpy[end] - customers[start] * grumpy[start];
             maxSatisfiedCustomers = Math.max(maxSatisfiedCustomers, satisfiedCustomers);
             start += 1;
