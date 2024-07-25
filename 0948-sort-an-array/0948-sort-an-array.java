@@ -1,58 +1,43 @@
 class Solution {
     public int[] sortArray(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return nums;
-        }
         mergeSort(nums, 0, nums.length - 1);
         return nums;
     }
 
-    private void mergeSort(int[] nums, int left, int right) {
-        if (left < right) {
-            int mid = left + (right - left) / 2;
-            mergeSort(nums, left, mid);
-            mergeSort(nums, mid + 1, right);
-            merge(nums, left, mid, right);
+    private void mergeSort(int[] array, int low, int high) {
+        if (low >= high) {
+            return;
         }
+        int mid = low + (high - low) / 2;
+        mergeSort(array, low, mid);
+        mergeSort(array, mid + 1, high);
+        merge(array, low, mid, high);
     }
 
-    private void merge(int[] nums, int left, int mid, int right) {
-        int n1 = mid - left + 1;
-        int n2 = right - mid;
+    private void merge(int[] array, int low, int mid, int high) {
+        int n1 = mid - low + 1;
+        int n2 = high - mid;
+        int[] leftPart = new int[n1];
+        int[] rightPart = new int[n2];
 
-        int[] leftArray = new int[n1];
-        int[] rightArray = new int[n2];
+        System.arraycopy(array, low, leftPart, 0, n1);
+        System.arraycopy(array, mid + 1, rightPart, 0, n2);
 
-        for (int i = 0; i < n1; ++i) {
-            leftArray[i] = nums[left + i];
-        }
-        for (int j = 0; j < n2; ++j) {
-            rightArray[j] = nums[mid + 1 + j];
-        }
-
-        int i = 0, j = 0;
-        int k = left;
-        while (i < n1 && j < n2) {
-            if (leftArray[i] <= rightArray[j]) {
-                nums[k] = leftArray[i];
-                i++;
+        int p1 = 0, p2 = 0, writeInd = low;
+        while (p1 < n1 && p2 < n2) {
+            if (leftPart[p1] <= rightPart[p2]) {
+                array[writeInd++] = leftPart[p1++];
             } else {
-                nums[k] = rightArray[j];
-                j++;
+                array[writeInd++] = rightPart[p2++];
             }
-            k++;
         }
 
-        while (i < n1) {
-            nums[k] = leftArray[i];
-            i++;
-            k++;
+        while (p1 < n1) {
+            array[writeInd++] = leftPart[p1++];
         }
 
-        while (j < n2) {
-            nums[k] = rightArray[j];
-            j++;
-            k++;
+        while (p2 < n2) {
+            array[writeInd++] = rightPart[p2++];
         }
     }
 }
