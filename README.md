@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/rahul-2396/leetcode/tree/master/0204-count-primes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rahul-2396/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0948-sort-an-array](https://github.com/rahul-2396/leetcode/tree/master/0948-sort-an-array) |
 | [1196-filling-bookcase-shelves](https://github.com/rahul-2396/leetcode/tree/master/1196-filling-bookcase-shelves) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/rahul-2396/leetcode/tree/master/0204-count-primes) |
 | [1642-water-bottles](https://github.com/rahul-2396/leetcode/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/rahul-2396/leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/rahul-2396/leetcode/tree/master/2645-pass-the-pillow) |
@@ -202,4 +204,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1511-count-number-of-teams](https://github.com/rahul-2396/leetcode/tree/master/1511-count-number-of-teams) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/rahul-2396/leetcode/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/rahul-2396/leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
