@@ -212,4 +212,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/rahul-2396/leetcode/tree/master/0204-count-primes) |
+## Database
+|  |
+| ------- |
+| [1773-percentage-of-users-attended-a-contest](https://github.com/rahul-2396/leetcode/tree/master/1773-percentage-of-users-attended-a-contest) |
 <!---LeetCode Topics End-->
