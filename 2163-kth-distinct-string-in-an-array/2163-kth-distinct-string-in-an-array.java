@@ -8,15 +8,15 @@ class Solution
             map.put(str, map.getOrDefault(str, 0) + 1);
         }
         int distinct = 0;
-        for(String newStr : arr)
+        for(String str : arr)
         {
-            if(map.get(newStr) == 1)
+            if(map.get(str) == 1)
             {
                 distinct += 1;
             }
             if(distinct == k)
             {
-                return newStr;
+                return str;
             }
         }
         return "";
