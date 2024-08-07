@@ -35,7 +35,7 @@ class Solution
         }
         return "";
     }
-    static class NumberWord
+    public static class NumberWord
     {
         int value;
         String word;
