@@ -2,7 +2,7 @@ class Solution
 {
     public int[][] spiralMatrixIII(int rows, int cols, int rStart, int cStart) 
     {
-        int[][] dir = new int[][] { {0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+        int[][] dir = new int[][] {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
         int[][] traversed = new int[rows * cols][2];
         int index = 0;
         for(int step = 1, direction = 0; index < rows * cols;)
