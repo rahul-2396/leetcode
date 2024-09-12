@@ -345,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Database
 |  |
 | ------- |
+| [0175-combine-two-tables](https://github.com/rahul-2396/leetcode/tree/master/0175-combine-two-tables) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/rahul-2396/leetcode/tree/master/1773-percentage-of-users-attended-a-contest) |
 ## Strongly Connected Component
 |  |
