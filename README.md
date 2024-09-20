@@ -228,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/rahul-2396/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0179-largest-number](https://github.com/rahul-2396/leetcode/tree/master/0179-largest-number) |
+| [0214-shortest-palindrome](https://github.com/rahul-2396/leetcode/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/rahul-2396/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/rahul-2396/leetcode/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/rahul-2396/leetcode/tree/master/0539-minimum-time-difference) |
@@ -415,8 +416,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/rahul-2396/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0214-shortest-palindrome](https://github.com/rahul-2396/leetcode/tree/master/0214-shortest-palindrome) |
 ## Memoization
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/rahul-2396/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+## Rolling Hash
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/rahul-2396/leetcode/tree/master/0214-shortest-palindrome) |
+## Hash Function
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/rahul-2396/leetcode/tree/master/0214-shortest-palindrome) |
 <!---LeetCode Topics End-->
